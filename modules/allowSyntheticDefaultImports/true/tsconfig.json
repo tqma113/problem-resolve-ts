@@ -1,9 +1,7 @@
 {
-  // "extends": "../../../tsconfig.base.json",
+  "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
-    "module": "es2015",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "outDir": "output"
   }
 }
