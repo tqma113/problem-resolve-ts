@@ -1,0 +1,7 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "allowUmdGlobalAccess": false,
+    "outDir": "output"
+  }
+}
