@@ -1,0 +1,27 @@
+{
+  "name": "problem-resolve-ts",
+  "version": "1.0.0",
+  "description": "Some functions, features, compile options details.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqma113/problem-resolve-ts.git"
+  },
+  "keywords": [
+    "Typescript",
+    "compileOptions",
+    "feature"
+  ],
+  "author": "Ma Tianqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tqma113/problem-resolve-ts/issues"
+  },
+  "homepage": "https://github.com/tqma113/problem-resolve-ts#readme",
+  "dependencies": {
+    "typescript": "^3.6.3"
+  }
+}
