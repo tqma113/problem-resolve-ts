@@ -1,3 +1,1 @@
-interface AA extends A {
-  aa: number
-}
+export const a = test
