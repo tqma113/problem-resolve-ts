@@ -35,4 +35,4 @@
 
 + strictPropertyInitialization(F)
 
-+ strictNullChecks(U)
++ strictNullChecks(F)
