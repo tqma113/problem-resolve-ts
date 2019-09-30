@@ -1,5 +1,8 @@
 # problem-resolve-ts
 
+> Typescript: 3.6.2  
+> Node: 10.16.0
+
 ## Features
 
 ### Base Type
