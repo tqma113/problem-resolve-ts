@@ -5,23 +5,23 @@
 
 ## Features
 
-### Base Type
++ Base Type
 
-### Intersection
++ Intersection
 
-### Optional
++ Optional
 
-### UMDGlobal
++ UMDGlobal
 
-### Union
++ Union
 
 ## Functions
 
-### Distinguish Arguments Length
++ Distinguish Arguments Length
 
-### Distinguish Arguments if Optional
++ Distinguish Arguments if Optional
 
-### Union To Intersection
++ Union To Intersection
 
 ## options
 
