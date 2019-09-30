@@ -42,3 +42,15 @@ Report an error when not all code paths in function return a value.
 ### noImplicitThis(F)
 
 Raise error on this expressions with an implied any type.
+
+### noStrictGenericChecks(U)
+
+Disable strict checking of generic signatures in function types.
+
+### preserveSymlinks(U)
+
+Do not resolve symlinks to their real path; treat a symlinked file like a real one.
+
+### strictFunctionTypes
+
+Disable bivariant parameter checking for function types.
