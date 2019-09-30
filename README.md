@@ -3,33 +3,31 @@
 > Typescript: 3.6.2  
 > Node: 10.16.0
 
+
+> F: Finished  
+> U: Unfinished
+
 ## Features
 
-+ Base Type
++ Base Type(F)
 
-+ Intersection
++ Intersection(F)
 
-+ Optional
++ Optional(F)
 
-+ UMDGlobal
++ UMDGlobal(F)
 
-+ Union
++ Union(F)
 
 ## Functions
 
-+ Distinguish Arguments Length
++ Distinguish Arguments Length(F)
 
-+ Distinguish Arguments if Optional
++ Distinguish Arguments if Optional(F)
 
-+ Union To Intersection
++ Union To Intersection(F)
 
 ## options
-
-***
-
-> F: Finished
->
-> U: Unfinished
 
 + allowJs(F)
 
