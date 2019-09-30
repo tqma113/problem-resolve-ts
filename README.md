@@ -32,3 +32,7 @@
 + strictBindCallApply(U)
 
 + strictFunctionTypes(F)
+
++ strictPropertyInitialization(F)
+
++ strictNullChecks(U)
