@@ -13,10 +13,10 @@ export type C = {
 
 export type Args<F> = F extends ((...args: infer ARGS) => any) ? ARGS : never
 export type Dist<
-  Action extends (...args: any[]) => any
-> = Args<Action> extends [any]
+  Func extends (...args: any[]) => any
+> = Args<Func> extends [any]
   ? boolean
-  : Args<Action> extends []
+  : Args<Func> extends []
     ? string
     : number
 
