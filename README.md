@@ -1,9 +1,10 @@
 # problem-resolve-ts
 
+environment:
 > Typescript: 3.6.2  
-> Node: 10.16.0
+> Node: 10.16.0  
 
-
+status:
 > F: Finished  
 > U: Unfinished
 
