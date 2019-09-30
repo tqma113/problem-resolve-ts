@@ -22,3 +22,23 @@ Allow accessing UMD globals from modules.
 ### composite(U)
 
 Ensure TypeScript can determine where to find the outputs of the referenced project to compile project.
+
+### downlevelIteration(F)
+
+Provide full support for iterables in for..of, spread and destructuring when targeting ES5 or ES3.
+
+### esModuleInterop(F)
+
+Emit __importStar and __importDefault helpers for runtime babel ecosystem compatibility and enable --allowSyntheticDefaultImports for typesystem compatibility.
+
+### noImplicitAny(F)
+
+Raise error on expressions and declarations with an implied any type.
+
+### noImplicitReturns(F)
+
+Report an error when not all code paths in function return a value.
+
+### noImplicitThis(F)
+
+Raise error on this expressions with an implied any type.
