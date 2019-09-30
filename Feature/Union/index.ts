@@ -1,8 +1,8 @@
-type A = 'a' | 'b'
+export type A = 'a' | 'b'
 
-type B = 'a'
+export type B = 'a'
 
 // false
-type C = A extends B ? true : false
+export type C = A extends B ? true : false
 // true
-type D = B extends A ? true : false
+export type D = B extends A ? true : false
