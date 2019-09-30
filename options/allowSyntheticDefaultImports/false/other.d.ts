@@ -1,7 +1,9 @@
 declare namespace Module {
   interface A {
-    a: "Hello world"
+    a: string
   }
 }
 
-export = Module
+export interface B {
+  a: string
+}
