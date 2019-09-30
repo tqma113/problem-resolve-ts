@@ -1,4 +1,4 @@
-// work well with 
+// work well with strictNullChecks is false
 export type A = {
   (p?: string): object
 }
