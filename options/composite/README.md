@@ -1,0 +1,5 @@
+# composite
+
+确保TypeScript可以确定在哪里查找引用项目的输出以编译项目
+
+允许使用顶级属性reference来引用其他项目
