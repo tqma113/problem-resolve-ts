@@ -1,3 +1,3 @@
-interface AA extends A {
+interface AA extends test.A {
   aa: number
 }

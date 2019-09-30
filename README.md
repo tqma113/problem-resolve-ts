@@ -3,11 +3,14 @@
 ## options
 ***
 
-+ allowJs(F)
+> F: Finished
+>
+> U: Unfinished
+### allowJs(F)
 
 > Allow JavaScript files to be compiled.
 
-+ allowSyntheticDefaultImports(U)
+### allowSyntheticDefaultImports(F)
 
 > Allow default imports from modules with no default export. This does not affect code emit, just typechecking.
 
