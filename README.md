@@ -20,6 +20,8 @@ status:
 
 + Union(F)
 
++ Const Assertion(F)
+
 ## Functions
 
 + Distinguish Arguments Length(F)
