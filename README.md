@@ -28,6 +28,8 @@ status:
 
 + Union To Intersection(F)
 
++ Intersection To Flat Object Type(F)
+
 ## options
 
 + allowJs(F)
