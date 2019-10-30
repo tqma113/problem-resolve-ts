@@ -22,6 +22,8 @@ status:
 
 + Const Assertion(F)
 
++ `is` keyword(F)
+
 ## Functions
 
 + Distinguish Arguments Length(F)
