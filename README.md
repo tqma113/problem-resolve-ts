@@ -1,7 +1,7 @@
 # problem-resolve-ts
 
 environment:
-> Typescript: 3.6.2  
+> Typescript: 3.6.3
 > Node: 10.16.0  
 
 status:
