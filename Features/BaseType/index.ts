@@ -47,3 +47,18 @@ export type AE = never extends number ? true : false // true
 export type AF = never extends boolean ? true : false // true
 export type AG = never extends e ? true : false // true
 export type AH = never extends object ? true : false // true
+
+// void
+export type AI = string extends void ? true : false // false
+export type AJ = number extends void ? true : false // false
+export type AK = boolean extends void ? true : false // false
+export type AL = e extends void ? true : false // false
+export type AM = object extends void ? true : false // false
+
+export type AN = void extends string ? true : false // true
+export type AO = void extends number ? true : false // true
+export type AP = void extends boolean ? true : false // true
+export type AQ = void extends e ? true : false // true
+export type AR = void extends object ? true : false // true
+
+// never 是最具体的类型，因为没有哪个集合比空集合更小了；而 unknown 是最弱的类型，因为它包含了全部可能的值。any 则不为集合，它破坏了类型检查，因此请尽量不要使用 any！
