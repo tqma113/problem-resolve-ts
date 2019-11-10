@@ -58,7 +58,7 @@ status:
 
 + preserveSymlinks(U)
 
-+ strictBindCallApply(U)
++ strictBindCallApply(F)
 
 + strictFunctionTypes(F)
 

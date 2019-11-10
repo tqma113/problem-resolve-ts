@@ -6,6 +6,9 @@ export type B = {
     (p: string): object
 }
 
+export type testA2 = A extends B ? true : false
+export type testB2 = B extends A ? true : false
+
 export type OptionalFirstArg = (a?: never) => unknown;
 
 export type IsOpt<F> = F extends OptionalFirstArg ? true : false;

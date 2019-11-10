@@ -47,29 +47,3 @@ export type AE = never extends number ? true : false // true
 export type AF = never extends boolean ? true : false // true
 export type AG = never extends e ? true : false // true
 export type AH = never extends object ? true : false // true
-
-// null
-export type AI = string extends null ? true : false // false
-export type AJ = number extends null ? true : false // false
-export type AK = boolean extends null ? true : false // false
-export type AL = e extends null ? true : false // false
-export type AM = object extends null ? true : false // false
-
-export type AN = null extends string ? true : false // true
-export type AO = null extends number ? true : false // true
-export type AP = null extends boolean ? true : false // true
-export type AQ = null extends e ? true : false // true
-export type AR = null extends object ? true : false // true
-
-// undefined
-export type AS = string extends undefined ? true : false // false
-export type AT = number extends undefined ? true : false // false
-export type AU = boolean extends undefined ? true : false // false
-export type AV = e extends undefined ? true : false // false
-export type AW = object extends undefined ? true : false // false
-
-export type AX = undefined extends string ? true : false // true
-export type AY = undefined extends number ? true : false // true
-export type AZ = undefined extends boolean ? true : false // true
-export type BA = undefined extends e ? true : false // true
-export type BB = undefined extends object ? true : false // true
