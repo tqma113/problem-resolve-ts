@@ -179,6 +179,27 @@
   type B = BazFunc extends FooFunc ? true : false // true
 }
 
+// conditional type
+{
+  type F<T> = T extends unknown ? (t: T) => void : never
+  type F1<T> = T | boolean extends unknown ? (t: T) => void : never
+
+  type A = F<number | string>
+  // type A = ((t: string) => void) | ((t: number) => void)
+
+  type B = F1<number | string>
+  // type B = (t: string | number) => void
+}
+
+{
+  type F<T> = T extends ((t: infer P) => void) ? P : never
+
+  type A = F<(t: string) => void>
+  // type A = string
+
+  type B = F<((t: string) => void) | ((t: number) => void)>
+  // type B = 
+}
 
 export type State = {
   a: string
