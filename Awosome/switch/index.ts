@@ -8,7 +8,7 @@ interface Bar {
   bar: number
 }
 
-function foo(val: Foo | Bar) {
+export function foo(val: Foo | Bar) {
   switch(val.type) {
     case 'foo':
       console.log(val.foo)
