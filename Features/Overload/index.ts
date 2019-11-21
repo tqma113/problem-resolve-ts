@@ -58,3 +58,28 @@ objStr = obj2str(foo, () => {
 objStr = obj2str(foo, true, () => {
   console.log('4', objStr)
 })
+
+// function foo1(a: string, b: string): string
+// function foo1(a: number, b: number): number
+// function foo1(a: string | number, b: string | number): string | number {
+//     return a + b
+// }
+
+// let a = foo1('a', 'b') // 'ab': string
+// let b = foo1(0, 1)     // 1: number
+// let c = foo1('a', 1)   // error: No overload matches this call.
+
+// interface Foo {
+//   (a: string, b: string): string
+//   (a: number, b: number): number
+// }
+
+// type Bar = Foo
+
+// let foo1: Bar = (a, b) => {
+//   return a + b
+// }
+
+// let a = foo1('a', 'b') // 'ab': string
+// let b = foo1(0, 1)     // 1: number
+// let c = foo1('a', 1)   // error: No overload matches this call.
